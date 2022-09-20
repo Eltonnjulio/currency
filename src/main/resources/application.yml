@@ -27,3 +27,6 @@ spring:
   flyway:
     clean-on-validation-error: true
     locations: classpath:/db/migration, classpath:/db/seeders
+  sentry:
+    dsn: https://4e75042305c949dbaa344a497ba61718@o1418957.ingest.sentry.io/6762694
+    traces-sample-rate: 1.0
